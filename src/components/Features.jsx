@@ -60,62 +60,60 @@ const Features = () => {
       <div className="container mx-auto px-3 md:px-10">
         <div className="px-5 py-32">
           <p className="font-circular-web text-lg text-blue-50">
-            Into the Metagame
+            This year, 2024
           </p>
           <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
-            Immerse yourself in a rich and every-expanding universe where a
-            vibrant array of products converge into an interconnected overlay
-            experience that transform the way you interact on your world.
+            I've gained many skills and knowledge, and I've come to understand
+            myself better. I tried new things, met many new faces, and joined
+            various school organizations. I truly enjoyed this year, filled with
+            countless moments of laughter and tears.
           </p>
         </div>
         <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
           <BentoCard
-            src="videos/feature-1.mp4"
+            src="videos/wcbf.mp4"
             title={<>we can't be friends</>}
-            description="Ariana Grande has been my top artist, and 'WCBF' is so relatable. As the saying goes, 'It’s better to have loved and lost than never to have loved at all.'"
+            description="It’s better to have loved and lost than never to have loved at all."
           />
         </BentoTilt>
         <div className="grid h-[135vh] grid-cols-2 grid-rows-3 gap-7">
           <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
             <BentoCard
-              src="videos/feature-2.mp4"
+              src="videos/eeaao.mp4"
               title={
                 <>
-                  Zig<b>m</b>a
+                  Everything Everywhere <b>a</b>ll at Once
                 </>
               }
-              description="An anime and gaming-inspired NFT Collection - the IP primed for expansion."
+              description="When I choose to see the good side of things, I'm not being naive. It is strategic and necessary. It's how I've learned to survive through everything."
             />
           </BentoTilt>
           <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
             <BentoCard
               src="videos/feature-3.mp4"
-              title={
-                <>
-                  N<b>e</b>xus
-                </>
-              }
-              description="A gamified social hub, adding a new dimension of play to social interaction for Web3 commuities."
+              title={<>Birds of the Feather</>}
+              description="Unwavering love, even in the face of death. "
             />
           </BentoTilt>
           <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
             <BentoCard
-              src="videos/feature-4.mp4"
-              title={
-                <>
-                  Az<b>u</b>l
-                </>
-              }
-              description="A cross-world AI Agent - elevating your gameplay to be more fun and productive."
+              src="videos/cmbyn.mp4"
+              title={<>Call me by your name</>}
+              description="Is it better to pour your heart out and confess true feelings at the risk of rejection, or would “dying” be easier and much less painful?"
             />
           </BentoTilt>
           <BentoTilt className="bento-tilt_2">
-            <div className="flex size-full flex-col justify-between bg-violet-300 p-5">
+            <div className="flex size-full flex-col justify-between bg-[#AFD198] p-5">
               <h1 className="bento-title special-font max-w-64">
-                M<b>0</b>re c<b>o</b>ming s<b>o</b>
-                <b>o</b>n!
+                TESTING 2024...
               </h1>
-              <TiLocationArrow className="m-5 scale-[5] self-end" />
+              <p className="">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                deserunt aspernatur eaque est quam quas labore non rem
+                doloribus. Hic eum repudiandae necessitatibus minus labore
+                voluptatibus architecto minima repellendus ad?
+              </p>
+              {/* <TiLocationArrow className="m-5 scale-[5] self-end" /> */}
             </div>
           </BentoTilt>
           <BentoTilt className="bento-tilt_2">

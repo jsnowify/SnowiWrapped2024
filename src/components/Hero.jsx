@@ -93,8 +93,11 @@ const Hero = () => {
 
       <div
         id="video-frame"
-        className="relative z-10 h-dvh w-screen overflow-hidden rounded-lg bg-blue-75"
+        className="relative z-10 h-dvh w-screen overflow-hidden rounded-lg bg-[#AFD198]"
       >
+        <div className="flex justify-center items-center h-[120dvh]">
+          <p className="text-sm uppercase md:text-[10px]">It's a rocky year</p>
+        </div>
         {/* <div>
           <div className="mask-clip-path absolute-center absolute z-50 size-64 cursor-pointer overflow-hidden rounded-lg">
             <div

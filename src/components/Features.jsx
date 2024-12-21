@@ -105,20 +105,22 @@ const Features = () => {
           <BentoTilt className="bento-tilt_2">
             <div className="flex size-full flex-col justify-between bg-[#AFD198] p-5">
               <h1 className="bento-title special-font max-w-64">
-                TESTING 2024...
+                Thank you,{" "}
+                <i>
+                  2<b>0</b>2<b>4</b>
+                </i>{" "}
+                and welcome{" "}
+                <i>
+                  2<b>0</b>2<b>5</b>
+                </i>
               </h1>
-              <p className="">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-                deserunt aspernatur eaque est quam quas labore non rem
-                doloribus. Hic eum repudiandae necessitatibus minus labore
-                voluptatibus architecto minima repellendus ad?
-              </p>
+
               {/* <TiLocationArrow className="m-5 scale-[5] self-end" /> */}
             </div>
           </BentoTilt>
           <BentoTilt className="bento-tilt_2">
             <video
-              src="videos/feature-5.mp4"
+              src="videos/rimuru.mp4"
               loop
               muted
               autoPlay
